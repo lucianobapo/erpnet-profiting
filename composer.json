@@ -1,0 +1,34 @@
+{
+  "name": "ilhanet/erpnet-profiting",
+  "license": "MIT",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Luciano Porto",
+      "email": "luciano.bapo@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "illuminate/support": ">=5",
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "ErpNET\\Profiting\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ErpNET\\ProfitingTests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ErpNET\\Profiting\\Providers\\ErpnetProfitingServiceProvider"
+      ]
+    }
+  }
+}
