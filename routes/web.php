@@ -6,16 +6,16 @@ Route::group(['middleware' => 'language'], function () {
 
 	Route::group(['middleware' => 'guest'], function () {
 
-        Route::group(['prefix' => 'auth'], function () {
-            Route::get('login', 'Auth\Login@create')->name('login');
-            Route::post('login', 'Auth\Login@store');
+        Route::group(['prefix' => 'auth', 'namespace'=>'\ErpNET\Profiting\Http\Controllers\Auth'], function () {
+            Route::get('login', 'Login@create')->name('login');
+            Route::post('login', 'Login@store');
 
-            Route::get('forgot', 'Auth\Forgot@create')->name('forgot');
-            Route::post('forgot', 'Auth\Forgot@store');
+            Route::get('forgot', 'Forgot@create')->name('forgot');
+            Route::post('forgot', 'Forgot@store');
 
             //Route::get('reset', 'Auth\Reset@create');
-            Route::get('reset/{token}', 'Auth\Reset@create')->name('reset');
-            Route::post('reset', 'Auth\Reset@store');
+            Route::get('reset/{token}', 'Reset@create')->name('reset');
+            Route::post('reset', 'Reset@store');
         });
 
 	});	
