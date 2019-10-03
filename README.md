@@ -1,11 +1,11 @@
-# erpnet-backpack
+# erpnet-profiting
 
-[Site do GitHub](https://github.com/lucianobapo/erpnet-backpack)
+[Site do GitHub](https://github.com/lucianobapo/erpnet-profiting)
 
-[![Latest Stable Version](https://poser.pugx.org/ilhanet/erpnet-backpack/v/stable)](https://packagist.org/packages/ilhanet/erpnet-backpack) 
-[![Total Downloads](https://poser.pugx.org/ilhanet/erpnet-backpack/downloads)](https://packagist.org/packages/ilhanet/erpnet-backpack) 
-[![Latest Unstable Version](https://poser.pugx.org/ilhanet/erpnet-backpack/v/unstable)](https://packagist.org/packages/ilhanet/erpnet-backpack) 
-[![License](https://poser.pugx.org/ilhanet/erpnet-backpack/license)](https://packagist.org/packages/ilhanet/erpnet-backpack)
+[![Latest Stable Version](https://poser.pugx.org/ilhanet/erpnet-profiting/v/stable)](https://packagist.org/packages/ilhanet/erpnet-profiting) 
+[![Total Downloads](https://poser.pugx.org/ilhanet/erpnet-profiting/downloads)](https://packagist.org/packages/ilhanet/erpnet-profiting) 
+[![Latest Unstable Version](https://poser.pugx.org/ilhanet/erpnet-profiting/v/unstable)](https://packagist.org/packages/ilhanet/erpnet-profiting) 
+[![License](https://poser.pugx.org/ilhanet/erpnet-profiting/license)](https://packagist.org/packages/ilhanet/erpnet-profiting)
 
 
 ## Install
@@ -16,7 +16,7 @@ Make sure your .env files point to right database connections
 2) In your terminal run these commands:
 
 ``` bash
-composer require ilhanet/erpnet-backpack
+composer require ilhanet/erpnet-profiting
 php artisan erpnet:backpack:install
 ```
 
